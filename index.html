@@ -14,32 +14,33 @@
 		@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 	</style> 
 </head>
-<div class="container-fluid bg-white sticky-top border-bottom py-3" id="nav">
-	<header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between" id = "header">
+<header class="container-fluid bg-white sticky-top border-bottom py-3" id="nav">
+	<div class="container-fluid px-5 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between" id = "header">
 		<a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-			<img class="bi me-2" width="81" src="pics/Logo.png">
+			<img class="bi me-3" width="81" src="pics/Logo.png">
+			<h3 style="color: #06B6D4;">Smart English</h3>
 		</a>
 
 		<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fw-bold">
 			<li>
-				<a href="index.html" class="nav-link px-2" style="color: #06B6D4;">
+				<a href="index.html" class="nav-link px-4" style="color: #06B6D4;">
 					Home
 					<div class = "container" id="activeNav">	
 					</div>
 				</a>
 			</li>
-			<li><a href="programs.html" class="nav-link px-2 link-dark">Program</a></li>
-			<li><a href="article.html" class="nav-link px-2 link-dark">Article</a></li>
-			<li><a href="contact.html" class="nav-link px-2 link-dark">Contact</a></li>
-			<li><a href="about.html" class="nav-link px-2 link-dark">About</a></li>
+			<li><a href="programs.html" class="nav-link px-4 link-dark">Program</a></li>
+			<li><a href="article.html" class="nav-link px-4 link-dark">Article</a></li>
+			<li><a href="contact.html" class="nav-link px-4 link-dark">Contact</a></li>
+			<li><a href="about.html" class="nav-link px-4 link-dark">About</a></li>
 		</ul>
 
 		<div class="col-md-3 text-end">
 			<a href="login.html" role="button" class="btn btn-light px-3 me-2" id="login">Login</a>
-			<a href="sign.html" role="button" class="btn text-white px-4" id="register">Register</a>
+			<a href="register.html" role="button" class="btn text-white px-4" id="register">Register</a>
 		</div>
-	</header>
-</div>
+	</div>
+</header>
 <body>
 	<section class="container-fluid justify-content-center carousel slide p-0" id="hero" data-bs-ride="carousel">
 		<div class = "text-white fw-bold" id="caption">
@@ -50,13 +51,13 @@
 			
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active" data-bs-interval="1500">
+			<div class="carousel-item active" data-bs-interval="2500">
 				<img src="pics/Hero1.png" class="d-block w-100" alt="...">
 			</div>
-			<div class="carousel-item" data-bs-interval="1500">
+			<div class="carousel-item" data-bs-interval="2500">
 				<img src="pics/Hero2.png" class="d-block w-100" alt="...">
 			</div>
-			<div class="carousel-item" data-bs-interval="1500">
+			<div class="carousel-item" data-bs-interval="2500">
 				<img src="pics/Hero3.png" class="d-block w-100" alt="...">
 			</div>
 		</div>
@@ -64,12 +65,12 @@
 
 	<section class="container-md">
 		<h1 class="text-center pt-3 pt-md-5">Best Programs</h1>
-		<div class="row justify-content-center py-3 py-md-5">
+		<div class="row justify-content-md-between py-3 py-md-5">
 			<div class="col-md-4 pb-md-0 pb-5">
 				<a href="#" class="text-decoration-none text-dark">
 					<div class="card" id="cardPrograms">
 						<img src="pics/Logo.png">
-						<article class="px-3 py-3">
+						<article class="p-3">
 							<h3>Programs 1</h3>
 							<hr>
 							<p class="p-2">
@@ -85,11 +86,12 @@
 				</a>
 			</div>
 
+
 			<div class="col-md-4 pb-md-0 pb-5">
 				<a href="#" class="text-decoration-none text-dark">
 					<div class="card" id="cardPrograms">
 						<img src="pics/Logo.png">
-						<article class="px-3 py-3">
+						<article class="p-3">
 							<h3>Programs 2</h3>
 							<hr>
 							<p class="p-2">
@@ -105,11 +107,12 @@
 				</a>
 			</div>
 
+
 			<div class="col-md-4 pb-md-0 pb-5">
 				<a href="#" class="text-decoration-none text-dark">
 					<div class="card" id="cardPrograms">
 						<img src="pics/Logo.png" class="p-3">
-						<article class="px-3 py-3">
+						<article class="p-3">
 							<h3>Programs 3</h3>
 							<hr>
 							<p class="p-2">
