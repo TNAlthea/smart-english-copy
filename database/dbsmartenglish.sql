@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2022 at 02:38 PM
+-- Generation Time: May 21, 2022 at 02:51 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.28
 
@@ -41,6 +41,7 @@ CREATE TABLE `tadmin` (
 CREATE TABLE `tartikel` (
   `id` int(10) NOT NULL,
   `title` varchar(255) NOT NULL,
+  `text` varchar(8192) NOT NULL,
   `articleImage` longblob NOT NULL,
   `articleDate` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
